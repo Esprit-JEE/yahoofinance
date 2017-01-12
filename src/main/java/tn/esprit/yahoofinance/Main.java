@@ -18,7 +18,7 @@ import org.json.JSONObject;
  * http://theoryapp.com/parse-json-in-java/
  * https://jsonformatter.curiousconcept.com/
  * 
- * mvn compile exec:java
+ * Pour lancer le code en utilisant Maven : mvn clean compile exec:java
  *
  */
 
@@ -40,11 +40,14 @@ public class Main {
 			
 			JSONObject rate = responseObj.getJSONObject("query").getJSONObject("results")
 					.getJSONArray("rate").getJSONObject(1);
-						
+					
+			System.out.println("/*****************************************/");
 			System.out.println(rate.getString("Name"));
 			System.out.println("ask : " + rate.getString("Ask"));
 			System.out.println("bid : " + rate.getString("Ask"));
 			System.out.println(rate.getString("Date") + "  " + rate.getString("Time"));
+			System.out.println("/*****************************************/");
+
 
 		} catch (IOException e) {
 			e.printStackTrace();
