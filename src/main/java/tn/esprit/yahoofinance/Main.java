@@ -20,7 +20,7 @@ import org.json.JSONObject;
  * 
  * 
  * Sans Maven:
- * Ajouter manuellement httpclient-4.1.1.jar et json-20160810.jar et leur dépendances si nécessaires -- bonne chance :)
+ * Ajouter manuellement httpclient-4.1.1.jar et json-20160810.jar et leur dépendances si nécessaire -- bonne chance :)
  *
  * 
  * Avec Maven
