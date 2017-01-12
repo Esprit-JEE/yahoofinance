@@ -18,7 +18,13 @@ import org.json.JSONObject;
  * http://theoryapp.com/parse-json-in-java/
  * https://jsonformatter.curiousconcept.com/
  * 
- * Pour lancer le code en utilisant Maven : mvn clean compile exec:java
+ * 
+ * Sans Maven:
+ * Ajouter manuellement httpclient-4.1.1.jar et json-20160810.jar et leur dépendances si nécessaires -- bonne chance :)
+ *
+ * 
+ * Avec Maven
+ * mvn clean compile exec:java
  *
  */
 
@@ -44,7 +50,7 @@ public class Main {
 			System.out.println("/*****************************************/");
 			System.out.println(rate.getString("Name"));
 			System.out.println("ask : " + rate.getString("Ask"));
-			System.out.println("bid : " + rate.getString("Ask"));
+			System.out.println("bid : " + rate.getString("Bid"));
 			System.out.println(rate.getString("Date") + "  " + rate.getString("Time"));
 			System.out.println("/*****************************************/");
 
