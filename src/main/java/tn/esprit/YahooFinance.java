@@ -1,4 +1,4 @@
-package tn.esprit.yahoofinance;
+package tn.esprit;
 
 import java.io.IOException;
 
@@ -20,6 +20,7 @@ import org.json.JSONObject;
  * 
  * 
  * Sans Maven:
+ * utiliser un IDE
  * Ajouter manuellement httpclient-4.1.1.jar et json-20160810.jar et leur dépendances si nécessaire -- bonne chance :)
  *
  * 
@@ -28,7 +29,7 @@ import org.json.JSONObject;
  *
  */
 
-public class Main {
+public class YahooFinance {
 
 	public static void main(String[] args) {
 		String restYahooQuery = "https://query.yahooapis.com/v1/public/yql?"
