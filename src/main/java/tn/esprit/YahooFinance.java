@@ -26,6 +26,13 @@ import org.json.JSONObject;
  * 
  * Avec Maven
  * mvn clean compile exec:java
+ * 
+ * 
+ * l'output devrait ressembler a :
+ * USD/EUR
+ * ask : 0.9425
+ * bid : 0.9420
+ * 1/13/2017  3:42am
  *
  */
 
