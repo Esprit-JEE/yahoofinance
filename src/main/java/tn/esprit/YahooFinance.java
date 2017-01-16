@@ -18,21 +18,6 @@ import org.json.JSONObject;
  * http://theoryapp.com/parse-json-in-java/
  * https://jsonformatter.curiousconcept.com/
  * 
- * 
- * Sans Maven:
- * utiliser un IDE
- * Ajouter manuellement httpclient-4.1.1.jar et json-20160810.jar et leur dépendances si nécessaire -- bonne chance :)
- *
- * 
- * Avec Maven
- * mvn clean compile exec:java
- * 
- * 
- * l'output devrait ressembler a :
- * USD/EUR
- * ask : 0.9425
- * bid : 0.9420
- * 1/13/2017  3:42am
  *
  */
 
